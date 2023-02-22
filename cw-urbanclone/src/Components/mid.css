@@ -1,0 +1,19 @@
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid p{
+    font-size: 50px;
+    color: white;
+}
+
+.dec{
+    border-radius: 5px;
+}
+
+.dec:hover{
+    transform: scale(1.04)
+}

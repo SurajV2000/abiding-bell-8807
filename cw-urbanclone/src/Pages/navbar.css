@@ -1,0 +1,6 @@
+.nav-cont:hover{
+    border-bottom: 2px solid black;
+}
+.nav-cont{
+    padding: 11.5px;
+}
