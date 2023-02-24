@@ -1,6 +1,12 @@
 .nav-cont:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 .nav-cont{
     padding: 11.5px;
+}
+.navi{
+    background-color: white;
+    position:sticky;
+  z-index: 2;
+  top: 0;
 }

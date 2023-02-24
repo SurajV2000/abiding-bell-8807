@@ -1,13 +1,21 @@
 .mid{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.16), rgba(0,0,0,0.8));
 }
 
-.mid p{
+.ptag>p{
+    color: white;
+    font-weight: bold;
+}
+
+.mid>p{
     font-size: 50px;
     color: white;
+    margin-left: 28%;
+    margin-bottom: 15%;
 }
 
 .dec{
