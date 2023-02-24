@@ -1,18 +1,14 @@
 import './App.css';
-import Footer from './Components/Footer.tsx';
-import Mid from './Components/Mid';
+import AllRoute from './Components/AllRoutes/Route';
+
 import Navbar from './Pages/Navbar';
+import Footer from "./Components/Footer.tsx"
 
 function App() {
   return (
     <div >
       <Navbar/>
-      <Mid/>
-
-      <div id='app'>
-
-      </div>
-
+      <AllRoute/>
       <Footer/>
     </div>
   );
