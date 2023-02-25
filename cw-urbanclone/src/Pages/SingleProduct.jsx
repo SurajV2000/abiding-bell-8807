@@ -1,41 +1,10 @@
-// import React, { useState, useEffect } from "react";
-// import { useParams } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
-// const getData = (url) => {
-//   return fetch(url).then((res) => res.json());
-// };
 
-// const SingleProduct = () => {
-//   const { id } = useParams();
-
-//   const [err, setErr] = useState(false);
-//   const [user, setUser] = useState({});
-
-//   const [loading, setLoad] = useState(false);
-
-//   const fetchandUpdate = () => {
-//     setLoad(true);
-//     getData(`http://localhost:8080/men/${id}`)
-//       .then((data) => {
-//         setUser(data);
-//         console.log(data);
-//       })
-//       .catch((error) => {
-//         setErr(true);
-//       })
-//       .finally(() => setLoad(false));
-//   };
-
-//   useEffect(() => {
-//     fetchandUpdate();
-//   }, []);
-
-//   return <div>hello</div>;
-// };
-
-// export default SingleProduct;
 
 import {
+  Spinner,
   Box,
   chakra,
   Container,
@@ -56,8 +25,54 @@ import {
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { MdLocalShipping } from "react-icons/md";
 
+const getData = (url) => {
+  return fetch(url).then((res) => res.json());
+};
+
 export default function SingleProduct() {
-  return (
+  const { id } = useParams();
+
+   const [err, setErr] = useState(false);
+     const [user, setUser] = useState({});
+  
+     const [loading, setLoad] = useState(false);
+
+
+     const fetchandUpdate = () => {
+      setLoad(true);
+      getData(`http://localhost:8080/men/${id}`)
+        .then((data) => {
+          setUser(data);
+          console.log(data);
+        })
+        .catch((error) => {
+          setErr(true);
+        })
+        .finally(() => setLoad(false));
+    };
+  
+    useEffect(() => {
+      fetchandUpdate();
+    }, []);
+
+  return loading ? (
+    <Box
+      textAlign={"center"}
+      width={"100%"}
+      height={"400px"}
+      paddingTop="150px"
+    >
+      <Spinner
+        thickness="4px"
+        speed="0.65s"
+        emptyColor="gray.200"
+        color="blue.500"
+        size="xl"
+      />
+    </Box>
+  ) : err ? (
+    "Something went wrong"
+  ) :  (
     <Container maxW={"7xl"}>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
@@ -69,7 +84,7 @@ export default function SingleProduct() {
             rounded={"md"}
             alt={"product image"}
             src={
-              "https://images.unsplash.com/photo-1596516109370-29001ec8ec36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyODE1MDl8MHwxfGFsbHx8fHx8fHx8fDE2Mzg5MzY2MzE&ixlib=rb-1.2.1&q=80&w=1080"
+              user.img
             }
             fit={"cover"}
             align={"center"}
@@ -84,14 +99,14 @@ export default function SingleProduct() {
               fontWeight={600}
               fontSize={{ base: "2xl", sm: "4xl", lg: "5xl" }}
             >
-              Automatic Watch
+             {user.title}
             </Heading>
             <Text
-              color={useColorModeValue("gray.900", "gray.400")}
+             color="gray.900"
               fontWeight={300}
               fontSize={"2xl"}
             >
-              $350.00 USD
+              $ {user.price}
             </Text>
           </Box>
 
@@ -100,13 +115,13 @@ export default function SingleProduct() {
             direction={"column"}
             divider={
               <StackDivider
-                borderColor={useColorModeValue("gray.200", "gray.600")}
+               borderColor="gray.200"
               />
             }
           >
             <VStack spacing={{ base: 4, sm: 6 }}>
               <Text
-                color={useColorModeValue("gray.500", "gray.400")}
+                color="gray.500"
                 fontSize={"2xl"}
                 fontWeight={"300"}
               >
@@ -123,7 +138,7 @@ export default function SingleProduct() {
             <Box>
               <Text
                 fontSize={{ base: "16px", lg: "18px" }}
-                color={useColorModeValue("yellow.500", "yellow.300")}
+                color="yellow.500"
                 fontWeight={"500"}
                 textTransform={"uppercase"}
                 mb={"4"}
@@ -147,7 +162,7 @@ export default function SingleProduct() {
             <Box>
               <Text
                 fontSize={{ base: "16px", lg: "18px" }}
-                color={useColorModeValue("yellow.500", "yellow.300")}
+                color="yellow.500"
                 fontWeight={"500"}
                 textTransform={"uppercase"}
                 mb={"4"}
@@ -209,8 +224,8 @@ export default function SingleProduct() {
             mt={8}
             size={"lg"}
             py={"7"}
-            bg={useColorModeValue("gray.900", "gray.50")}
-            color={useColorModeValue("white", "gray.900")}
+            bg="gray.900"
+            color="white"
             textTransform={"uppercase"}
             _hover={{
               transform: "translateY(2px)",

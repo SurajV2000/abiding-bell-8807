@@ -5,56 +5,56 @@
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Full arms + underarms waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 150"
+      "price":150
     },
     {
       "id":2,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Full leg waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 250"
+      "price":250
     },
     {
       "id":3,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Stomach waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 300"
+      "price":300
     },
     {
       "id":4,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Back Waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 350"
+      "price":350
     },
     {
       "id":5,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Half leg waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹475"
-    },
+      "price":75  
+     },
     {
       "id":6,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Instant glow facials",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 256"
+      "price":256
     },
     {
       "id":7,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Tan removal cleanup",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 154"
+      "price":154
     },
     {
       "id":8,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Cut file and polish",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 288"
+      "price":288
     }
   ],
   "men":[
@@ -63,56 +63,63 @@
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Full arms + underarms waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 150"
+      "price":150
     },
     {
       "id":2,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Full leg waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 250"
+      "price":250
     },
     {
       "id":3,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Stomach waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 300"
+      "price":300
     },
     {
       "id":4,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Back Waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 350"
+      "price":350
     },
     {
       "id":5,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Half leg waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹475"
-    },
+      "price":75
+     },
     {
       "id":6,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Instant glow facials",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 256"
+      "price":256
     },
     {
       "id":7,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Tan removal cleanup",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 154"
+      "price":154
     },
     {
       "id":8,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Cut file and polish",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 288"
+      "price":288
+    },
+    {
+      "id":9,
+      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title":"Cut file and polish",
+      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price":156
     }
   ],
   "electrician":[
@@ -121,56 +128,56 @@
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Full arms + underarms waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 150"
+      "price":150
     },
     {
       "id":2,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Full leg waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 250"
+      "price":250
     },
     {
       "id":3,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Stomach waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 300"
+      "price":300
     },
     {
       "id":4,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Back Waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 350"
+      "price":350
     },
     {
       "id":5,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Half leg waxing",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹475"
-    },
+      "price":75
+        },
     {
       "id":6,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Instant glow facials",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 256"
+      "price":256
     },
     {
       "id":7,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Tan removal cleanup",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 154"
+      "price":154
     },
     {
       "id":8,
       "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
       "title":"Cut file and polish",
       "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":"₹ 288"
+      "price":288
     }
   ]
 }

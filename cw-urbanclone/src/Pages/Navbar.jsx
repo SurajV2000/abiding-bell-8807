@@ -28,9 +28,10 @@ const Navbar = () => {
     >
       <NavLink to="/">
         <Image
-          src="https://fashionista-suraj.netlify.app/Fashionisa%20(2).png"
+          src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png"
           alt="Dan Abramov"
           w="40"
+          backgroundColor={"black"}
         />
       </NavLink>
 
