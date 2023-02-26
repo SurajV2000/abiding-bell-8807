@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-
-
 import {
   Spinner,
   Box,
-  chakra,
   Container,
   Stack,
   Text,
@@ -17,12 +14,10 @@ import {
   Heading,
   SimpleGrid,
   StackDivider,
-  useColorModeValue,
-  VisuallyHidden,
   List,
   ListItem,
+  useToast,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { MdLocalShipping } from "react-icons/md";
 
 const getData = (url) => {
@@ -31,29 +26,50 @@ const getData = (url) => {
 
 export default function SingleProduct() {
   const { id } = useParams();
+  const toast = useToast();
 
-   const [err, setErr] = useState(false);
-     const [user, setUser] = useState({});
-  
-     const [loading, setLoad] = useState(false);
+  const [err, setErr] = useState(false);
+  const [user, setUser] = useState({});
 
+  const [loading, setLoad] = useState(false);
 
-     const fetchandUpdate = () => {
-      setLoad(true);
-      getData(`http://localhost:8080/men/${id}`)
-        .then((data) => {
-          setUser(data);
-          console.log(data);
-        })
-        .catch((error) => {
-          setErr(true);
-        })
-        .finally(() => setLoad(false));
-    };
-  
-    useEffect(() => {
-      fetchandUpdate();
-    }, []);
+  const fetchandUpdate = () => {
+    setLoad(true);
+    getData(`http://localhost:8080/men/${id}`)
+      .then((data) => {
+        setUser(data);
+        console.log(data);
+      })
+      .catch((error) => {
+        setErr(true);
+      })
+      .finally(() => setLoad(false));
+  };
+
+  const handleCart = () => {
+    fetch(`http://localhost:8080/cart`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(user),
+    })
+      .then((res) => {
+        res.json();
+        toast({
+          title: "Added to Cart.",
+          status: "success",
+          duration: 1000,
+          isClosable: true,
+          position: "top",
+        });
+      })
+      .catch((err) => console.log(err));
+  };
+
+  useEffect(() => {
+    fetchandUpdate();
+  }, []);
 
   return loading ? (
     <Box
@@ -72,7 +88,7 @@ export default function SingleProduct() {
     </Box>
   ) : err ? (
     "Something went wrong"
-  ) :  (
+  ) : (
     <Container maxW={"7xl"}>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
@@ -83,9 +99,7 @@ export default function SingleProduct() {
           <Image
             rounded={"md"}
             alt={"product image"}
-            src={
-              user.img
-            }
+            src={user.img}
             fit={"cover"}
             align={"center"}
             w={"100%"}
@@ -99,13 +113,9 @@ export default function SingleProduct() {
               fontWeight={600}
               fontSize={{ base: "2xl", sm: "4xl", lg: "5xl" }}
             >
-             {user.title}
+              {user.title}
             </Heading>
-            <Text
-             color="gray.900"
-              fontWeight={300}
-              fontSize={"2xl"}
-            >
+            <Text color="gray.900" fontWeight={300} fontSize={"2xl"}>
               $ {user.price}
             </Text>
           </Box>
@@ -113,18 +123,10 @@ export default function SingleProduct() {
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={"column"}
-            divider={
-              <StackDivider
-               borderColor="gray.200"
-              />
-            }
+            divider={<StackDivider borderColor="gray.200" />}
           >
             <VStack spacing={{ base: 4, sm: 6 }}>
-              <Text
-                color="gray.500"
-                fontSize={"2xl"}
-                fontWeight={"300"}
-              >
+              <Text color="gray.500" fontSize={"2xl"} fontWeight={"300"}>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore
               </Text>
@@ -231,6 +233,7 @@ export default function SingleProduct() {
               transform: "translateY(2px)",
               boxShadow: "lg",
             }}
+            onClick={handleCart}
           >
             Add to cart
           </Button>

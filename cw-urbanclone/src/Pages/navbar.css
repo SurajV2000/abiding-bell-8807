@@ -1,12 +1,23 @@
 .nav-cont:hover{
     border-bottom: 3px solid black;
 }
+.cart:hover{
+    border-bottom: 3px solid black;
+}
 .nav-cont{
-    padding: 11.5px;
+    padding: 12px;
 }
 .navi{
     background-color: white;
     position:sticky;
   z-index: 2;
   top: 0;
+  border-bottom: 1px solid grey;
+}
+.span{
+    margin-left: 2px;
+    font: bold;
+}
+.cart{
+    margin: 22px;
 }

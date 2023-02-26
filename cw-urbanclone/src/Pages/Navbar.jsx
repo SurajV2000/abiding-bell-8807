@@ -1,22 +1,46 @@
-import React from "react";
-import navbar from "./navbar.css";
-import { NavLink } from "react-router-dom";
+import React, { useContext, useEffect, useState } from "react";
+import { Navigate, NavLink } from "react-router-dom";
+import navbar from "../Pages/navbar.css";
 import {
   Image,
-  Flex,
   Input,
   InputGroup,
   Box,
-  Center,
   Text,
   InputLeftElement,
-  border,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
+  Center,
+  IconButton,
 } from "@chakra-ui/react";
-import { SearchIcon } from "@chakra-ui/icons";
-import Men from "./Men";
-import Home from "./Home";
+import { SearchIcon, HamburgerIcon } from "@chakra-ui/icons";
+import { AuthContext } from "../Context.jsx/AuthContextProvider";
 
 const Navbar = () => {
+  const { auth, logout } = useContext(AuthContext);
+
+  const [data, setData] = useState([]);
+  const fetchData = async (page) => {
+    try {
+      let get = await fetch(`http://localhost:8080/cart`);
+      let data = await get.json();
+      setData(data);
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+  let total = 0;
+  data.forEach(() => {
+    total++;
+  });
+
   return (
     <Box
       className="navi"
@@ -114,6 +138,38 @@ const Navbar = () => {
             <Text fontSize="10px">AC/Appliances Repair</Text>
           </div>
         </NavLink>
+        <Center>
+          <NavLink
+            style={({ isActive }) => {
+              return isActive ? { borderBottom: "3px solid black" } : null;
+            }}
+            to="cart"
+          >
+            <div className="cart">
+              <i  class="fa-solid fa-cart-shopping"></i>
+              <span className="span">{total}</span>
+            </div>
+          </NavLink>
+        </Center>
+        <Center>
+          <Menu>
+            <MenuButton as={IconButton} icon={<HamburgerIcon />}></MenuButton>
+            <MenuList>
+              <NavLink to="/admin">
+                <MenuItem>Admin</MenuItem>
+              </NavLink>
+              <MenuItem
+                isDisabled={!auth}
+                onClick={() => {
+                  alert("Logout Successfully");
+                  logout();
+                }}
+              >
+                Logout
+              </MenuItem>
+            </MenuList>
+          </Menu>
+        </Center>
       </Box>
     </Box>
   );

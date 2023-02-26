@@ -1,183 +1,230 @@
 {
-  "women":[
+  "users": [
     {
-      "id":1,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Full arms + underarms waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":150
+      "id": 1,
+      "email": "123@gmail.com",
+      "password": "123456"
     },
     {
-      "id":2,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Full leg waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":250
+      "email": "adi@gmail.com",
+      "password": "adi",
+      "id": 2
     },
     {
-      "id":3,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Stomach waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":300
-    },
-    {
-      "id":4,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Back Waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":350
-    },
-    {
-      "id":5,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Half leg waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":75  
-     },
-    {
-      "id":6,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Instant glow facials",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":256
-    },
-    {
-      "id":7,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Tan removal cleanup",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":154
-    },
-    {
-      "id":8,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Cut file and polish",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":288
+      "email": "123456@gmail.com",
+      "password": "123456",
+      "id": 3
     }
   ],
-  "men":[
+  "men": [
     {
-      "id":1,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Full arms + underarms waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":150
+      "id": 1,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Full arms + underarms waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 150
     },
     {
-      "id":2,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Full leg waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":250
+      "id": 2,
+      "img": "https://i.pinimg.com/736x/02/10/1a/02101a84bede9f360281e364a7ccaaa3.jpg",
+      "title": "Full leg waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 250
     },
     {
-      "id":3,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Stomach waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":300
+      "id": 3,
+      "img": "https://wahlusa.com/media/wysiwyg/wahlusa.com/sites/default/files/2020-04/Undercut.jpg",
+      "title": "Stomach waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 300
     },
     {
-      "id":4,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Back Waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":350
+      "id": 4,
+      "img": "https://i.pinimg.com/736x/02/10/1a/02101a84bede9f360281e364a7ccaaa3.jpg",
+      "title": "Back Waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 350
     },
     {
-      "id":5,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Half leg waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":75
-     },
-    {
-      "id":6,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Instant glow facials",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":256
+      "id": 5,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Half leg waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 75
     },
     {
-      "id":7,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Tan removal cleanup",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":154
+      "id": 6,
+      "img": "https://wahlusa.com/media/wysiwyg/wahlusa.com/sites/default/files/2020-04/Undercut.jpg",
+      "title": "Instant glow facials",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 256
     },
     {
-      "id":8,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Cut file and polish",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":288
+      "id": 7,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo3SsFn_8vZEN5jYL0jJfqOxFAvNI3DqdMS4lOmDGqF9ggGBcGNK6lUWtv7T1WBAfii8Y&usqp=CAU",
+      "title": "Tan removal cleanup",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 154
     },
     {
-      "id":9,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Cut file and polish",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":156
+      "id": 8,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Cut file and polish",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 288
     }
   ],
-  "electrician":[
+  "women": [
     {
-      "id":1,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Full arms + underarms waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":150
+      "id": 1,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Full arms + underarms waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 150
     },
     {
-      "id":2,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Full leg waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":250
+      "id": 2,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Full leg waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 250
     },
     {
-      "id":3,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Stomach waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":300
+      "id": 3,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Stomach waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 300
     },
     {
-      "id":4,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Back Waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":350
+      "id": 4,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Back Waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 350
     },
     {
-      "id":5,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Half leg waxing",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":75
-        },
-    {
-      "id":6,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Instant glow facials",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":256
+      "id": 5,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Half leg waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 75
     },
     {
-      "id":7,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Tan removal cleanup",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":154
+      "id": 6,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Instant glow facials",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 256
     },
     {
-      "id":8,
-      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
-      "title":"Cut file and polish",
-      "description":"Perfect for hot summers or after vacations. For clear & restored skin.",
-      "price":288
+      "id": 7,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Tan removal cleanup",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 154
+    },
+    {
+      "id": 8,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Cut file and polish",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 288
+    },
+    {
+      "id": 9,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Cut file and polish",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 156
+    },
+    {
+      "title": "wax",
+      "price": "455",
+      "img": "https://i.pinimg.com/736x/02/10/1a/02101a84bede9f360281e364a7ccaaa3.jpg",
+      "description": "Haircut",
+      "id": 10
+    }
+  ],
+  "electrician": [
+    {
+      "id": 1,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Full arms + underarms waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 150
+    },
+    {
+      "id": 2,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Full leg waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 250
+    },
+    {
+      "id": 3,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Stomach waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Back Waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 350
+    },
+    {
+      "id": 5,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Half leg waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 75
+    },
+    {
+      "id": 6,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Instant glow facials",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 256
+    },
+    {
+      "id": 7,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Tan removal cleanup",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 154
+    },
+    {
+      "id": 8,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Cut file and polish",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 288
+    }
+  ],
+  "cart": [
+    {
+      "id": 3,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Stomach waxing",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 300
+    },
+    {
+      "id": 7,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo3SsFn_8vZEN5jYL0jJfqOxFAvNI3DqdMS4lOmDGqF9ggGBcGNK6lUWtv7T1WBAfii8Y&usqp=CAU",
+      "title": "Tan removal cleanup",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 154
+    },
+    {
+      "id": 8,
+      "img": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_96,dpr_1,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670316645942-bf8c5a.jpeg",
+      "title": "Cut file and polish",
+      "description": "Perfect for hot summers or after vacations. For clear & restored skin.",
+      "price": 288
     }
   ]
 }

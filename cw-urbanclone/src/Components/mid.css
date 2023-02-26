@@ -25,3 +25,7 @@
 .dec:hover{
     transform: scale(1.04)
 }
+.ps{
+    color: white;
+    font-weight: bold;
+}
