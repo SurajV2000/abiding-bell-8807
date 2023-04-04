@@ -4,26 +4,25 @@ REACT-101-CW-PROJECT
 This Project is the clone of URBAN COMPANY which give us the services for home, offices.schools as well at one place .
 This Clone is created for my Consrtuct week project .
 
-TECH STACK-->
-1-->REACT
-2-->CHAKRA UI
-3-->DB JSON
 
-LINKS
+![URBANS](https://user-images.githubusercontent.com/91380941/229773307-e9679bd4-1365-4096-9574-2953f87f5be2.png)
 
-Netlify--> https://lively-youtiao-a328e7.netlify.app/
-Github--> https://github.com/SurajV2000/abiding-bell-8807/tree/main/cw-urbanclone
-
-FUNCTIONALITYS
-1--> ADD To Cart
-2--> Sorting By criteia
-3--> Search Functionality
-4-->Admin Login 
-5-->Adding Product form ADMIN page
-6-->Adding and removing product form cart
+## Authors
+- [@SurajV2000](https://github.com/SurajV2000)
 
 
-REFERNCE FOR DOCUMENTATION
+## Features
 
-1-->https://chakra-ui.com/
-2-->https://www.canva.com/
+- Login/Signup with Validation
+- Detailed Description Of Each Product
+- Add functionality to card, with desired quantity of each product
+- Increase or decrease the quantity, as well as delete the item from the card
+- Check out the payment page and confirm the order
+- Admin ascess to add/modify products
+
+
+## Tech Stack
+
+*Client:* React, Chakra UI
+
+*Server:* Node, json
